@@ -80,6 +80,11 @@ input {
 	text-align: center;
 	border: none;
 }
+.loginbtn:hover {
+	background-color: #008CBA;
+	color: white; 
+	opacity: 1;
+}
 
 form {
 	padding: 5px 5px 5px 5px;
@@ -93,4 +98,7 @@ form {
 .signin {
 	text-transform: capitalize;
 	letter-spacing:normal;
+	text-decoration:underline;
+	color: black;
+	font-weight: bold;
 }
