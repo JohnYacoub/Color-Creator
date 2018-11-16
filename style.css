@@ -16,6 +16,7 @@ h1 {
 	text-transform: uppercase;
 	letter-spacing: .5em;
 	width: 100%;
+	position: static;
 }
 
 h3 {
@@ -44,7 +45,7 @@ img {
 	width: 50%;
 }
 
-button {
+.tryme {
 width: 50%;
 background-color: white;
 color: black;
@@ -73,4 +74,23 @@ input {
 	width: 100px;
 
 
+}
+.loginbtn {
+	display: inline-block;
+	text-align: center;
+	border: none;
+}
+
+form {
+	padding: 5px 5px 5px 5px;
+	display: inline-block;
+	border: 1px solid black;
+	margin: 20px 20px 20px 20px;
+	position: relative;
+    left:35%;
+}
+
+.signin {
+	text-transform: capitalize;
+	letter-spacing:normal;
 }
